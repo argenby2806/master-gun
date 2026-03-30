@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 986fce00065be354f8a6914c9926ac74
+timeCreated: 1529057851
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Transat
+  fontNames:
+  - Transat
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1cdc64e5dc9cfe348bf9fce776d005a3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

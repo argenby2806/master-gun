@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0194f33780083584e91fc2c35cc90ffc
+timeCreated: 1529057851
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blissful Thinking
+  fontNames:
+  - Blissful Thinking
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

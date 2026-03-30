@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1202227520060320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4267474157085924}
+  - component: {fileID: 114126462273390186}
+  - component: {fileID: 114365365253634736}
+  - component: {fileID: 114590103652244832}
+  m_Layer: 0
+  m_Name: Base Project
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4267474157085924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202227520060320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9967142, y: 0.59579456, z: 7.744198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114126462273390186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202227520060320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c879e5e732c6d4f3790c660767d1ba33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bannerAdNetworkToUse: 1
+  interstitialAdNetworkToUse: 1
+  rewardedVideoAdNetworkToUse: 1
+  minSecondsBetweenInterstitial: 10
+  advertisingId: ca-app-pub-3940256099942544~3347511713
+--- !u!114 &114365365253634736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202227520060320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff82d505323d14ad9ac8e7a2c34660de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOnThisPlatform: 1
+  androidBannerID: ca-app-pub-3940256099942544/6300978111
+  androidInterstitialID: ca-app-pub-3940256099942544/1033173712
+  androidRewardVideoID: ca-app-pub-3940256099942544/5224354917
+  IOSBannerID: ca-app-pub-3940256099942544/6300978111
+  IOSInterstitialID: ca-app-pub-3940256099942544/1033173712
+  IOSRewardVideoID: ca-app-pub-3940256099942544/5224354917
+  bannerPosition: 1
+--- !u!114 &114590103652244832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202227520060320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a06b9dbac1f44ed7863c59bddda7b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
