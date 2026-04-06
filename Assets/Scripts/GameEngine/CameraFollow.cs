@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
-
+    //SetCamera distance , followspeed , animation 
     Vector3 distanceOffset;
     float followSpeed = 1;
     public bool vibrate;
@@ -13,6 +13,7 @@ public class CameraFollow : MonoBehaviour {
     {
         instance = this;
     }
+    //follow player
     private void Start()
     {
         StartCoroutine(FollowRoutine());
@@ -27,6 +28,7 @@ public class CameraFollow : MonoBehaviour {
 
 
         }
+        //set position player 
         Vector3 charpos = Character.player.transform.position;
         charpos.x = transform.position.x;
         distanceOffset = transform.position - charpos;

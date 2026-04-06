@@ -18,7 +18,7 @@ public class BackgroundMusic : MonoBehaviour {
             DontDestroyOnLoad(this.gameObject);
         }
             }
-	// Use this for initialization
+	// Use PlayMusic for initialization
 public void PlayMusic() { if(bgMusicAudiosource.isPlaying==false)bgMusicAudiosource.Play(); }
 
     public void FadeMusic(bool inOut = false)

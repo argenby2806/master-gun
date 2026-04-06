@@ -42,30 +42,30 @@ public class SoundsManager : MonoBehaviour
             AudioListener.volume = 1;
         }
     }
-
+//headshot sound
     public void PlayHeadshotSound()
     {
         if(HeadshotSound.isPlaying==false)
         HeadshotSound.Play();
     }
-
+    //PlaycoinSound
     public void PlayCoinSound()
     {
         CoinSound.Play();
     }
-
+    //PlayGameOverSound
     public void PlayGameOverSound()
     {
         Play(gameSounds[1]);
     }
-
+    //PlayMenuButtonSound
     public void PlayMenuButtonSound()
     {
         Play(gameSounds[0]);
     }
 
 
-
+    //PlayDestroySound
     public void Play(AudioClip clip)
     {
         StartCoroutine(PlayAndDestroySource(clip));
